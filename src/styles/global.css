@@ -1,0 +1,39 @@
+/* -----RESET DOS CSS ----- */
+*{
+    border: 0; /*Zerar borda*/
+    margin: 0; /*Zerar Margin*/
+    padding: 0; /*Zerar Padding*/
+    box-sizing: border-box; /*Respeitar largura e altura*/
+}
+
+/* ----- VARIAVEIS----- */
+:root{
+
+    /*CORES*/
+    --color-white: #FFFFFF; /* Variável de cor */
+    --color-blue: #1090CB; /* Variável de cor */
+    --color-blue-10: #1090CB1a; /* Variável de cor */
+    --color-black: #000000; /* Variável de cor */
+    --color-gray: #5C5C5C; /* Variável de cor */
+    --color-gray2: #969696; /* Variável de cor */
+    --color-gray3: #C4C4C4; /* Variável de cor */
+
+    /*FONTES*/
+    --font-size-h1: 35px; /* Variável tamanho da fonte */
+    --font-size-h2: 30px; /* Variável tamanho da fonte */
+    --font-size-h3: 25px; /* Variável tamanho da fonte */ 
+    --font-size-h4: 18px; /* Variável tamanho da fonte */
+    --font-size-body: 16px; /* Variável tamanho da fonte */
+    --font-size-button: 16px; /* Variável tamanho da fonte */
+    --font-size-caption: 14px; /* Variável tamanho da fonte */
+
+    --font-weigth-h1: 600; /* Variável espessura da fonte */
+    --font-weigth-h2: 600; /* Variável espessura da fonte */
+    --font-weigth-h3: 600; /* Variável espessura da fonte */
+    --font-weigth-h3: 500; /* Variável espessura da fonte */
+    --font-weigth-body: 400; /* Variável espessura da fonte */
+    --font-weigth-button: 700; /* Variável espessura da fonte */
+    --font-weigth-caption: 400; /* Variável espessura da fonte */
+
+    --font-family-primary:"Poppins", sans-serif; /* Variável para a familia da fonte */
+}
