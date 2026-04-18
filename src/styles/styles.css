@@ -1,5 +1,6 @@
 @import url("./global.css");
 
+/* -------- HEADER -------- */
 header{
     display: flex;  /*Alinhamento inline*/
     justify-content: space-between; /*colocar nas extremidades*/
@@ -38,4 +39,73 @@ header{
     border-radius: 10px; /*Borda arredondada*/
     padding: 10px 20px; /*Espaço interno*/
     font-weight: var(--font-weigth-button); /*Espessura da fonte*/
+}
+
+/* -------- MAIN -------- */
+main{
+    display: flex;  /*Alinhamento inline*/
+    justify-content: center; /*Alinhar os itens no centro horizontalmente*/
+    align-items: center; /*Alinhar os itens no centro verticalmente*/
+    gap: 50px; /*Distancia entre os itens*/
+    padding: 50px 0px; /*top e botton 50px e 0px pensando em responsividade*/
+    background-color: var(--color-blue-10); /*Cor de fundo*/
+}
+
+.main-content{
+    display: flex; /*Alinhamento inline*/
+    flex-direction: column; /*Mudar o formato doalinhamento para coluna*/
+    gap: 30px; /*Distancia entre os elementos*/
+    width: 520px; /*Tamanhno maximo da div*/
+    font-family: var(--font-family-primary); /*Fonte*/
+}
+
+.main-content h1{
+    font-weight: var(--font-weigth-h1); /*Espessura da fonte*/
+    font-size: var(--font-size-h1); /*Tamanho da fonte*/
+}
+
+.main-content span{
+    color: var(--color-blue); /*Cor da fonte*/
+}
+
+.main-content p{
+    font-weight: var(--font-weigth-body); /*Espessura da fonte*/
+    font-size: var(--font-size-body); /*Tamanho da fonte*/
+    color: var(--color-gray); /*Cor da fonte*/
+    line-height: 30px; /*espaçamento entre as linhas*/
+}
+   
+.container-cta{
+    display: flex; /*Alinhamento inline*/
+    gap: 10px; /*Distancia entre os itens*/
+}
+
+.btn-primary,.btn-secondary{
+    text-decoration: none; /*Decoracao do texto*/
+    font-weight: var(--font-weigth-button); /*Espessura da fonte*/   
+    font-size: var(--font-size-button); /*Tamanho da fonte*/ 
+    padding: 8px 55px; /*Espaçamento interno*/
+    border-radius: 10px; /*arrendondamento da borda*/
+}
+
+.btn-primary{
+    background-color: var(--color-blue); /*Cor de fundo*/
+    color: var(--color-white); /*Cor da fonte*/
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    background-color: #005e89;    
+}
+
+.btn-secondary{
+    background-color: var(--color-white); /*Cor de fundo*/
+    color: var(--color-blue); /*Cor da fonte*/
+    border: 1px solid var(--color-blue); /* borda*/
+    transition: 0.3s;
+}
+
+.btn-secondary:hover{
+    border: 1px solid #005e89; 
+    color: #005e89; 
 }
