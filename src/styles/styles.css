@@ -1,1 +1,41 @@
-@import url("./global.css")
+@import url("./global.css");
+
+header{
+    display: flex;  /*Alinhamento inline*/
+    justify-content: space-between; /*colocar nas extremidades*/
+    align-items: center;  /*colocar no centro da vertical*/
+    padding: 30px; /*espaço interno*/
+    border-bottom: 0.7px solid var(--color-gray3); /* borda inferior*/
+}
+
+.container-nav-header{
+    display: flex; /*Alinhamento inline*/
+    align-items: center; /*colocar no centro da vertical*/
+    gap: 70px; /*Distancia entre os elementos*/
+}
+
+.navigation-header ul{
+    display: flex; /*Alinhamento inline*/
+    gap: 40px; /*Distancia entre os elementos*/
+    list-style: none; /*Remove a bolinha*/     
+}
+
+.navigation-header ul li a{
+    text-decoration: none; /*Decoracao do texto*/
+    color: var(--color-black); /*Cor do texto*/
+    font-family: var(--font-family-primary); /*Fonte*/
+}
+
+.navigation-header ul li .menu-active{
+    color: var(--color-blue);
+}
+
+.btn-header{
+    font-family: var(--font-family-primary); /*Fonte*/
+    text-decoration: none; /*Decoração do texto*/
+    background-color: var(--color-blue); /*Cor de fundo*/
+    color: var(--color-white); /*Cor da fonte*/
+    border-radius: 10px; /*Borda arredondada*/
+    padding: 10px 20px; /*Espaço interno*/
+    font-weight: var(--font-weigth-button); /*Espessura da fonte*/
+}
