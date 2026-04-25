@@ -39,7 +39,13 @@ header{
     border-radius: 10px; /*Borda arredondada*/
     padding: 10px 20px; /*Espaço interno*/
     font-weight: var(--font-weigth-button); /*Espessura da fonte*/
+    transition: 0.3s;
 }
+
+.btn-header:hover{
+    background-color: #005e89;    
+}
+
 
 /* -------- MAIN -------- */
 main{
@@ -108,4 +114,32 @@ main{
 .btn-secondary:hover{
     border: 1px solid #005e89; 
     color: #005e89; 
+}
+
+/* -------- SECTION SERVICE -------- */
+.container-services{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 25px;
+    justify-content: center;
+    padding: 30px 0; /*espaço interno*/
+    border-bottom: 0.7px solid var(--color-gray3); /* borda inferior*/
+}
+
+.container-item-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: var(--font-family-primary); /*Fonte*/
+}
+
+.details-services p{
+    color: var(--color-gray2); /*Cor da fonte*/   
+    font-size: var(--font-size-caption);
+}
+
+.details-services h2{
+    font-weight: var(--font-weigth-h4);
+    font-size: var(--font-size-h4);
 }
