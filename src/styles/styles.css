@@ -39,7 +39,13 @@ header{
     border-radius: 10px; /*Borda arredondada*/
     padding: 10px 20px; /*Espaço interno*/
     font-weight: var(--font-weigth-button); /*Espessura da fonte*/
+    transition: 0.3s;
 }
+
+.btn-header:hover{
+    background-color: #005e89;    
+}
+
 
 /* -------- MAIN -------- */
 main{
@@ -109,3 +115,18 @@ main{
     border: 1px solid #005e89; 
     color: #005e89; 
 }
+
+/* -------- SECTION SERVICE -------- */
+.container-services{
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    font-family: var(--font-family-primary);
+}
+
+
+.main-item p{
+    font-size: var(--font-size-caption); /*Tamanho da fonte*/
+    color: var(--color-gray); /*Cor da fonte*/
+}
+  
