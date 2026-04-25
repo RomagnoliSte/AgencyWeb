@@ -299,3 +299,22 @@ main{
     border: 1px solid #005e89; 
     color: #005e89; 
 }
+
+.section-partners{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--font-family-primary); /*Fonte*/
+    align-items: center;
+    padding: 83.5px 0;
+}
+
+.section-partners div h2{
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weigth-h3);
+}
+
+.images-partners{
+    display: flex;
+    gap: 80px;
+}
