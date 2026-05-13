@@ -318,22 +318,104 @@ main {
   gap: 80px;
 }
 
-/* -------- SECTION CONTACT US ------- */
-.contact-us {
-  background-color: var(--color-blue-10);
+/* -------------- SECTION-CONTACT -------------- */
+
+.section-contact {
   display: flex;
   flex-direction: column;
   gap: 80px;
-  padding: 140px 0;
-  font-family: var(--font-family-primary); /*Fonte*/
-
   align-items: center;
+  padding: 140px;
+  background-color: var(--color-blue-10);
 }
 
-.title-contact {
-  font-size: var(--font-size-body);
+.section-contact h2 {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-h2);
   font-weight: var(--font-weigth-h2);
-  width: 478px;
-  line-height: 30px;
   text-align: center;
+  width: 478px;
+}
+
+.section-contact form {
+  display: flex;
+  gap: 14px;
+}
+
+.section-contact form input {
+  padding: 20px 35px;
+  border-radius: 10px;
+  width: 532px;
+  font-family: var(--font-family-primary);
+  box-shadow: 0 4px 84px 0 rgba(0, 0, 0, 0.07);
+}
+
+.section-contact form button {
+  background-color: var(--color-black);
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: var(--color-white);
+  font-family: var(--font-family-primary);
+  text-transform: uppercase;
+  font-weight: var(--font-weigth-button);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 99px;
+  padding: 60px 0;
+}
+
+.footer-informations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  font-family: var(--font-family-primary);
+}
+
+.footer-informations p {
+  width: 268px;
+  font-size: var(--font-size-caption);
+  color: #515151;
+}
+
+.footer-informations ul {
+  list-style: none;
+}
+
+.footer-informations ul li a,
+.footer-informations ul li {
+  text-decoration: none;
+  color: #515151;
+  font-size: var(--font-size-caption);
+}
+
+.footer-informations h2 {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weigth-h4);
+}
+
+.footer-socials {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 12px;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.social-item:hover {
+  background-color: var(--color-blue-10);
+  transform: translateY(-10px);
 }
