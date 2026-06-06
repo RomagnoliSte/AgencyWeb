@@ -53,7 +53,7 @@ Acesse o protótipo do projeto no Figma:
 
 ### Desktop
 
-<img src="src/assets/images/thumb - AgencyWeb.png" alt="Preview desktop">
+![Web](https://github.com/RomagnoliSte/AgencyWeb/blob/main/src/assets/images/thumb%20-%20AgencyWeb.png)
 
 ---
 
