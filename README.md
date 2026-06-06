@@ -53,9 +53,7 @@ Acesse o protótipo do projeto no Figma:
 
 ### Desktop
 
-<img src="src/assets/images/preview-01" alt="Preview desktop">
-<img src="src/assets/images/preview-02" alt="Preview desktop">
-<img src="src/assets/images/preview-03" alt="Preview desktop">
+<img src="src/assets/images/thumb - AgencyWeb.png" alt="Preview desktop">
 
 ---
 
